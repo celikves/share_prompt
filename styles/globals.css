@@ -4,16 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  .font-inter {
-    font-family: 'Inter', sans-serif;
-  }
-  .font-satoshi {
-    font-family: 'Satoshi', sans-serif;
-  }
-}
+/* 
+  Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
+*/
 
-/* Existing styles... */
 .main {
   width: 100vw;
   min-height: 100vh;
@@ -60,7 +54,8 @@
     radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
     radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
     radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%);
+    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
   position: absolute;
   content: "";
   width: 100%;
